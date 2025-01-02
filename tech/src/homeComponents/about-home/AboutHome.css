@@ -1,0 +1,117 @@
+.aboutWrapperContent{
+    display: flex;
+    gap: 8.6rem;
+    padding-left: 3.2rem;
+    padding-right: 1.7rem;
+    border-bottom: 1.5px solid #191919;
+    padding-bottom: clamp(8rem, 4vw, 5rem);
+}
+.aboutWrapperContent .aboutContentLeftImg{
+    width: 418px;
+    height: 298px;
+}
+.aboutWrapperContent .aboutContentLeftImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 1.2rem;
+}
+.aboutWrapperContent .aboutContentLeft h3{
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.9rem;
+    margin-bottom: 3.2rem;
+}
+.aboutWrapperContent .aboutContentRight {
+    padding-bottom: 5.4rem;
+}
+.aboutWrapperContent .aboutContentRight h3{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+.aboutWrapperContent .aboutContentRight p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3.2rem;
+    color: #191919;
+    display: -webkit-box;
+   -webkit-line-clamp: 5; 
+   -webkit-box-orient: vertical;
+   overflow: hidden; 
+   text-overflow: ellipsis;
+}
+.aboutWrapperContent .about-btn-div{
+    margin-top: 3.2rem;
+    
+}
+
+                                                                                    /*! Responsive  */
+                                                                                    /*? RESPONSIVE 768px  */
+@media (max-width:768px) {
+        .aboutWrapperContent{
+            flex-direction: column;
+            gap: 2.4rem;
+            padding-bottom: 8rem;
+        }
+        .aboutWrapperContent .aboutContentLeftImg{
+            width: 100%;
+            height: 100%;
+        }
+        .aboutWrapperContent .aboutContentLeft h3{
+            margin-bottom: 1.6rem;
+            font-size: 2.6rem;
+        }
+        .aboutWrapperContent .gradient-heading {
+            margin-top: 2.4rem;
+            font-size: 2.4rem;
+        }
+        .aboutWrapperContent .aboutContentRight h3{
+            font-size: 2rem;
+            line-height: 2.8rem;
+        }   
+        .aboutWrapperContent .aboutContentRight p{
+            font-size: 1.6rem;
+            margin-top: 1.6rem;
+            line-height: 2.5rem;
+        }   
+        .aboutWrapperContent .about-btn-div{
+            text-align: start;
+        }
+}
+                                                                                    /*? RESPONSIVE 375px  */
+@media screen and (max-width:375px) {
+    .aboutWrapperContent{
+        padding-bottom: 7rem;
+    }
+    .aboutWrapperContent .aboutContentLeftImg{
+        width: 100%;
+        height: 100%;
+    }
+    .aboutWrapperContent .aboutContentLeft h3{
+        margin-bottom: 2.4rem;
+        font-size: 1.8rem;
+    }
+    .aboutWrapperContent .gradient-heading {
+        margin-top: 2.4rem;
+        font-size: 2.4rem;
+    }
+    .aboutWrapperContent .aboutContentRight h3{
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }   
+    .aboutWrapperContent .aboutContentRight p{
+        font-size: 1.4rem;
+        margin-top: 1.6rem;
+        line-height: 2.3rem;
+    }   
+    .aboutWrapperContent .about-btn-div{
+        text-align: center;
+    }
+  
+}
+
+
